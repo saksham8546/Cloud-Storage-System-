@@ -1,4 +1,7 @@
-flask
-boto3
-flask-login
-gunicorn
+Flask==2.2.5               # Flask web framework
+boto3==1.28.59             # AWS SDK for Python to interact with S3
+Flask-Login==0.6.3         # For user authentication and session management
+Werkzeug==2.2.5            # Provides security and utilities for Flask, includes password hashing
+Jinja2==3.1.2              # Templating engine used by Flask
+gunicorn==20.1.0           # WSGI server for deploying Flask apps
+sqlite3==3.41.2            # SQLite database library (built into Python)
